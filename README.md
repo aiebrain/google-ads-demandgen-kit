@@ -52,5 +52,13 @@ https://github.com/aiebrain/google-ads-demandgen-kit
 - `basic-access-design-doc.md` 는 예시 값(회사명·이메일·계정 ID)이 들어 있는 **템플릿**입니다. 다른 계정에
   쓸 때는 본인 값으로 교체하세요.
 
+## 📢 채널 · 더 알아보기 (aiebrain)
+
+AI·이커머스 관련 콘텐츠를 아래 채널에서 만나보세요:
+
+- ▶️ **YouTube** — https://www.youtube.com/@aiebrain/
+- 📝 **네이버 블로그** — https://blog.naver.com/aiebrain
+- 🧵 **Threads** — https://www.threads.com/@ai_ebrain
+
 ---
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
