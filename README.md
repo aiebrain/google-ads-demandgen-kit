@@ -21,12 +21,26 @@ Claude Code로 **Google Ads 디멘드젠(Demand Gen) 광고를 만들 수 있게
 | `google-ads-direct-mcp.skill` | 단일 파일로 배포 가능한 스킬 패키지 |
 | `google-ads-demandgen-reproduction-kit.zip` | 스킬+가이드 포터블 번들(다른 PC용) |
 
-## 빠른 시작
+## 빠른 시작 (원클릭 흐름 — 붙여넣기)
 
-1. `skills/` 의 두 폴더를 `~/.claude/skills/` 에 복사
-2. Claude Code에서:
-   - **"지금 디멘드젠 광고 만들어줘"** → A 방식(UI로 즉시 생성)
-   - **"디멘드젠 셋업해줘"** → B 방식(API 서버 구축, 코파일럿 안내)
+새 Claude Code 세션에서 아래를 그대로 붙여넣으세요:
+
+```
+https://github.com/aiebrain/google-ads-demandgen-kit
+이 저장소로 START-HERE.md 대로 진행해줘
+```
+
+그러면 Claude가 **권장 순서**로 진행합니다:
+1. 스킬 설치(`skills/` → `~/.claude/skills/`)
+2. **B 착수** — 서버 셋업으로 승인 시계 걸기(개발자 토큰 Basic 신청 ≈5영업일, GCP 결제 ≈24h)
+3. **A 즉시** — 대기 동안 UI로 디멘드젠 광고를 **테스트/데모(초안)** 로 지금 바로 생성
+4. **~5일 뒤** — Basic 승인되면 **B 완성**(배포·등록·검증) → 대화로 자동 생성
+
+자세한 온보딩 절차·설명은 **[START-HERE.md](START-HERE.md)** 참고.
+
+### 개별 트리거 (원할 때 각각)
+- **"지금 디멘드젠 광고 만들어줘"** → A 방식(UI로 즉시 생성, 테스트)
+- **"디멘드젠 셋업해줘"** → B 방식(API 서버 구축, 코파일럿 안내)
 
 ## 보안 주의
 
