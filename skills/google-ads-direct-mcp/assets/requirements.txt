@@ -1,0 +1,9 @@
+# FastMCP streamable-HTTP APIs used here (streamable_http_app, stateless_http,
+# TransportSecuritySettings) require a recent mcp. Do not loosen below 1.9.
+mcp>=1.9.0
+uvicorn[standard]>=0.30.0
+starlette>=0.37.0
+google-ads>=25.0.0
+google-auth>=2.0.0
+google-api-core>=2.0.0
+google-auth-oauthlib>=1.2.0

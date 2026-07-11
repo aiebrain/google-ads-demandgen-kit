@@ -1,0 +1,20 @@
+# 로컬/에디터 설정
+.claude/
+.DS_Store
+Thumbs.db
+
+# 비밀값 안전망 — 절대 커밋 금지 (원래 프로젝트 폴더엔 없지만 방어적으로)
+.env
+*.env
+!.env.example
+**/google_ads_adc.json
+**/google_ads_oauth_client.json
+**/mcp_bearer_token.txt
+**/connection.json
+*adc*.json
+*_secret_*.json
+client_secret*.json
+
+# 파이썬 캐시
+__pycache__/
+*.pyc

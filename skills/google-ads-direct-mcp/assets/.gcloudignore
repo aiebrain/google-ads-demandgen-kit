@@ -1,0 +1,7 @@
+.git
+__pycache__/
+*.pyc
+.env
+*.json
+local_secrets/
+mcp_bearer_token.txt
