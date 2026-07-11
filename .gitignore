@@ -18,3 +18,6 @@ client_secret*.json
 # 파이썬 캐시
 __pycache__/
 *.pyc
+
+# Vercel 로컬 링크 메타데이터
+.vercel/

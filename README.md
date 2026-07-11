@@ -8,6 +8,9 @@ Claude Code로 **Google Ads 디멘드젠(Demand Gen) 광고를 만들 수 있게
 - **B 방식 — API/MCP 자동화 (서버 구축)**: 쓰기 가능한 MCP 서버를 Cloud Run에 배포해, Claude와
   **대화만으로** 캠페인을 생성·재현합니다. 여러 PC 공유·자동화에 적합(개발자 토큰 Basic 승인 필요).
 
+> 📖 **완전 초보자용 웹 가이드**: **https://gads-demandgen-guide.vercel.app** — "이게 무슨 작업인지"부터
+> 시작 방법·진행 흐름까지 쉽게 정리. (소스: `gads-demandgen-guide/index.html`, Vercel 배포)
+
 ## 구성
 
 | 경로 | 설명 |
